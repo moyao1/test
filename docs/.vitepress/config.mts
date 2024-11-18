@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/test/',
   title: "MoYao's Wiki",//整体项目名称
   description: "",//SEO
   themeConfig: {
